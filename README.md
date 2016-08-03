@@ -1,6 +1,6 @@
 # Arma3-exile
 
-Mods needed
+**Mods needed**
 
 Exile               http://www.exilemod.com/
 A2OP                http://steamcommunity.com/sharedfiles/filedetails/?id=724594534
@@ -10,15 +10,15 @@ RZInfection         http://steamcommunity.com/sharedfiles/filedetails/?id=614815
 HVP                 http://www.omnicidal.com/hvp
 InfiStar            http://infistar.de        (Not included)
 
-StartServer.bat
+###StartServer.bat
 
-[code]
+```
 -mod= @A2OP;@Esseker;@Exile;@ZombiesAndDemons;@RZInfection;@HVP;Kart;Mark;Heli;expansion;
-[/code]
+```
 
-edit "config.cfg"
+###edit config.cfg
 
-[code]
+```
 class Missions
 {
 	class Exile
@@ -32,4 +32,4 @@ class Missions
         
 	}; 
 };
-[/code]
+```
