@@ -2711,11 +2711,212 @@ class CfgExileArsenal
 	class Exile_Item_FlagStolen9						{ quality = 1; price = 45000; sellPrice = 45000; };
 	class Exile_Item_FlagStolen10						{ quality = 1; price = 50000; sellPrice = 50000; };
 	
+	//Custom
+	
 	///////////////////////////////////////////////////////////////////////////////
 	// RZInfection
 	///////////////////////////////////////////////////////////////////////////////
 	class rzinfection_antivirus_pills					{ quality = 1; price = 500; };
 	class rzinfection_antivirus_injector				{ quality = 1; price = 2000; };
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// yamaha R6
+	///////////////////////////////////////////////////////////////////////////////
+	class Mrshounka_yamaha_p_bf				        { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_g				        { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_j				        { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_noir				    { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_o				        { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_rose				    { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_r				        { quality = 1; price = 4000; };
+	class Mrshounka_yamaha_p_v				        { quality = 1; price = 4000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// pugeot
+	///////////////////////////////////////////////////////////////////////////////
+	class Mrshounka_a3_308_civ_bleufonce			{ quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_grise		        { quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_jaune			    { quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_noir				    { quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_orange				{ quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_rose			        { quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_rouge			    { quality = 1; price = 7000; };
+	class Mrshounka_a3_308_civ_violet			    { quality = 1; price = 7000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// buggy
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_buggy_bleufonce				    { quality = 1; price = 8000; };
+	class shounka_buggy_grise				        { quality = 1; price = 8000; };
+	class shounka_buggy_jaune				        { quality = 1; price = 8000; };
+	class shounka_buggy_noir				        { quality = 1; price = 8000; };
+	class shounka_buggy_orange				        { quality = 1; price = 8000; };
+	class shounka_buggy_rose				        { quality = 1; price = 8000; };
+	class shounka_buggy_rouge				        { quality = 1; price = 8000; };
+	class shounka_buggy_violet				        { quality = 1; price = 8000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// GMC van
+	///////////////////////////////////////////////////////////////////////////////
+	class Mrshounka_Vandura_civ				        { quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_bleufonce		    { quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_grise				{ quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_jaune				{ quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_noir				{ quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_orange				{ quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_rose			    { quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_rouge				{ quality = 1; price = 9000; };
+	class Mrshounka_Vandura_civ_violet				{ quality = 1; price = 9000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// hummer
+	///////////////////////////////////////////////////////////////////////////////
+	class Mr_Own_hummer_civ_noir				    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_bleufonce			    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_grise				    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_jaune				    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_orange				    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_rose				    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_rouge				    { quality = 1; price = 10000; };
+	class Mr_Own_hummer_civ_violet				    { quality = 1; price = 10000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// roadrunners
+	///////////////////////////////////////////////////////////////////////////////
+	class SIG_Roadrunner				            { quality = 1; price = 12000; };
+	class SIG_Hubcaps				                { quality = 1; price = 12000; };
+	class SIG_Magnums				                { quality = 1; price = 12000; };
+	class SIG_Hcode				                    { quality = 1; price = 12000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// avalanche
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_avalanche_bleufonce			    { quality = 1; price = 15000; };
+	class shounka_avalanche_grise				    { quality = 1; price = 15000; };
+	class shounka_avalanche_jaune				    { quality = 1; price = 15000; };
+	class shounka_avalanche_noir				    { quality = 1; price = 15000; };
+	class shounka_avalanche_orange				    { quality = 1; price = 15000; };
+	class shounka_avalanche_rose				    { quality = 1; price = 15000; };
+	class shounka_avalanche_rouge				    { quality = 1; price = 15000; };
+	class shounka_avalanche_violet				    { quality = 1; price = 15000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// zombie car :P
+	///////////////////////////////////////////////////////////////////////////////
+	class Mrshounka_corbillard_c_bleufonce		    { quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_grise			    { quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_jaune				{ quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_noir				{ quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_orange			    { quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_rose			    { quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_rouge			    { quality = 1; price = 16000; };
+	class Mrshounka_corbillard_c_violet				{ quality = 1; price = 16000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// superbees
+	///////////////////////////////////////////////////////////////////////////////
+	class SIG_Superbee				                { quality = 1; price = 18000; };
+	class SIG_SuperbeeY				                { quality = 1; price = 18000; };
+	class SIG_SuperbeeB				                { quality = 1; price = 18000; };
+	class SIG_SuperbeeL				                { quality = 1; price = 18000; };
+	class SIG_SuperbeeM				                { quality = 1; price = 18000; };
+	class SIG_SuperbeeG				                { quality = 1; price = 18000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// armored buggy
+	///////////////////////////////////////////////////////////////////////////////
+	class Mr_Own_buggy_bleufonce			    { quality = 1; price = 19000; };
+	class Mr_Own_buggy_grise				    { quality = 1; price = 19000; };
+	class Mr_Own_buggy_jaune				    { quality = 1; price = 19000; };
+	class Mr_Own_buggy_noir				        { quality = 1; price = 19000; };
+	class Mr_Own_buggy_orange				    { quality = 1; price = 19000; };
+	class Mr_Own_buggy_rose				        { quality = 1; price = 19000; };
+	class Mr_Own_buggy_rouge				    { quality = 1; price = 19000; };
+	class Mr_Own_buggy_violet				    { quality = 1; price = 19000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// monster trucks
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_monsteur_bleufonce				{ quality = 1; price = 25000; };
+	class shounka_monsteur_grise				    { quality = 1; price = 25000; };
+	class shounka_monsteur_jaune				    { quality = 1; price = 25000; };
+	class shounka_monsteur_noir				        { quality = 1; price = 25000; };
+	class shounka_monsteur_orange				    { quality = 1; price = 25000; };
+	class shounka_monsteur_rose				        { quality = 1; price = 25000; };
+	class shounka_monsteur_rouge			  	    { quality = 1; price = 25000; };
+	class shounka_monsteur_violet				    { quality = 1; price = 25000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Truck(Trailerless)
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_a3_dafxf_euro6_f				    { quality = 1; price = 28000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Truck(Trailer)
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_ivceco_bleufonce				{ quality = 1; price = 29000; };
+	class shounka_ivceco_grise		            { quality = 1; price = 29000; };
+	class shounka_ivceco_jaune			        { quality = 1; price = 29000; };
+	class shounka_ivceco_noir				    { quality = 1; price = 29000; };
+	class shounka_ivceco_orange				    { quality = 1; price = 29000; };
+	class shounka_ivceco_rose			        { quality = 1; price = 29000; };
+	class shounka_ivceco_rouge			        { quality = 1; price = 29000; };
+	class shounka_ivceco_violet			        { quality = 1; price = 29000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Limo
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_limo_civ_bleufonce				{ quality = 1; price = 30000; };
+	class shounka_limo_civ_grise		            { quality = 1; price = 30000; };
+	class shounka_limo_civ_jaune			        { quality = 1; price = 30000; };
+	class shounka_limo_civ_noir				        { quality = 1; price = 30000; };
+	class shounka_limo_civ_orange				    { quality = 1; price = 30000; };
+	class shounka_limo_civ_rose			            { quality = 1; price = 30000; };
+	class shounka_limo_civ_violet			        { quality = 1; price = 30000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// dodge charger
+	///////////////////////////////////////////////////////////////////////////////
+	class Mr_Own_dodge15_civ				        { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_bleufonce				{ quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_grise				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_jaune				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_noir				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_orange				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_rose				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_rouge				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ_violet				    { quality = 1; price = 32000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Ferrari
+	///////////////////////////////////////////////////////////////////////////////
+	class shounka_f430_spider_bleufonce				{ quality = 1; price = 35000; };
+	class shounka_f430_spider_grise		            { quality = 1; price = 35000; };
+	class shounka_f430_spider_jaune			        { quality = 1; price = 35000; };
+	class shounka_f430_spider_noir				    { quality = 1; price = 35000; };
+	class shounka_f430_spider_rose				    { quality = 1; price = 35000; };
+	class shounka_f430_spider_rouge			        { quality = 1; price = 35000; };
+	class shounka_f430_spider_violet			    { quality = 1; price = 35000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Lykan
+	///////////////////////////////////////////////////////////////////////////////
+	class Mrshounka_lykan_c_bleufonce				{ quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_grise		            { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_jaune			        { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_noir				    { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_orange				    { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_rose			        { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_rouge			        { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_violet			        { quality = 1; price = 36000; };
+
+	///////////////////////////////////////////////////////////////////////////////
+	// planes
+	///////////////////////////////////////////////////////////////////////////////
+	class MV22				                        { quality = 1; price = 25000; };
+	class sab_camel_blu				                { quality = 1; price = 28000; };
+	class sab_camel_red				                { quality = 1; price = 28000; };
+	
 };
 
 
@@ -5107,6 +5308,151 @@ class Glasses
 			"Exile_Car_Ikarus_Blue"
 		};
 	};
+	
+	class MVP
+	{
+		name = "MVP";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
+			/////////////////////
+			//Class cars 
+			////////////////////
+			"SIG_Roadrunner",
+			"SIG_Hubcaps",
+			"SIG_Magnums",
+			"SIG_Hcode",
+			"SIG_Superbee",
+			"SIG_SuperbeeY",
+			"SIG_SuperbeeB",
+			"SIG_SuperbeeL",
+			"SIG_SuperbeeM",
+			"SIG_SuperbeeG",
+
+			//////////////////////////
+			//Class Cars
+			/////////////////////////
+			"Mr_Own_buggy_bleufonce",
+			"Mr_Own_buggy_grise",
+			"Mr_Own_buggy_jaune",
+			"Mr_Own_buggy_noir",
+			"Mr_Own_buggy_orange",
+			"Mr_Own_buggy_rose",
+			"Mr_Own_buggy_rouge",
+			"Mr_Own_buggy_violet",
+			"Mr_Own_dodge15_civ",
+			"Mr_Own_dodge15_civ_bleufonce",
+			"Mr_Own_dodge15_civ_grise",
+			"Mr_Own_dodge15_civ_jaune",
+			"Mr_Own_dodge15_civ_noir",
+			"Mr_Own_dodge15_civ_orange",
+			"Mr_Own_dodge15_civ_rose",
+			"Mr_Own_dodge15_civ_rouge",
+			"Mr_Own_dodge15_civ_violet",
+			"Mr_Own_hummer_civ_noir",
+			"Mr_Own_hummer_civ_bleufonce",
+			"Mr_Own_hummer_civ_grise",
+			"Mr_Own_hummer_civ_jaune",
+			"Mr_Own_hummer_civ_orange",
+			"Mr_Own_hummer_civ_rose",
+			"Mr_Own_hummer_civ_violet",
+			"Mr_Own_hummer_civ_rouge",
+			"shounka_buggy_bleufonce",
+			"shounka_buggy_grise",
+			"shounka_buggy_jaune",
+			"shounka_buggy_noir",
+			"shounka_buggy_orange",
+			"shounka_buggy_rose",
+			"shounka_buggy_rouge",
+			"shounka_buggy_violet",
+			"shounka_avalanche_bleufonce",
+			"shounka_avalanche_grise",
+			"shounka_avalanche_jaune",
+			"shounka_avalanche_noir",
+			"shounka_avalanche_orange",
+			"shounka_avalanche_rose",
+			"shounka_avalanche_rouge",
+			"shounka_avalanche_violet",
+			"shounka_monsteur_bleufonce",
+			"shounka_monsteur_grise",
+			"shounka_monsteur_jaune",
+			"shounka_monsteur_noir",
+			"shounka_monsteur_orange",
+			"shounka_monsteur_rose",
+			"shounka_monsteur_rouge",
+			"shounka_monsteur_violet",
+			"Mrshounka_Vandura_civ",
+			"Mrshounka_Vandura_civ_bleufonce",
+			"Mrshounka_Vandura_civ_grise",
+			"Mrshounka_Vandura_civ_jaune",
+			"Mrshounka_Vandura_civ_noir",
+			"Mrshounka_Vandura_civ_orange",
+			"Mrshounka_Vandura_civ_rose",
+			"Mrshounka_Vandura_civ_rouge",
+			"Mrshounka_Vandura_civ_violet",
+			"Mrshounka_yamaha_p_bf",
+			"Mrshounka_yamaha_p_g",
+			"Mrshounka_yamaha_p_j",
+			"Mrshounka_yamaha_p_noir",
+			"Mrshounka_yamaha_p_o",
+			"Mrshounka_yamaha_p_rose",
+			"Mrshounka_yamaha_p_r",
+			"Mrshounka_yamaha_p_v",
+
+			///////////////////////////////////
+			//Class Cars
+			///////////////////////////////////
+			"Mrshounka_corbillard_c",
+			"Mrshounka_corbillard_c_bleufonce",
+			"Mrshounka_corbillard_c_grise",
+			"Mrshounka_corbillard_c_jaune",
+			"Mrshounka_corbillard_c_noir",
+			"Mrshounka_corbillard_c_orange",
+			"Mrshounka_corbillard_c_rose",
+			"Mrshounka_corbillard_c_rouge",
+			"Mrshounka_corbillard_c_violet",
+			"shounka_a3_dafxf_euro6_f",
+			"shounka_f430_spider_bleufonce",
+			"shounka_f430_spider_grise",
+			"shounka_f430_spider_jaune",
+			"shounka_f430_spider_noir",
+			"shounka_f430_spider_orange",
+			"shounka_f430_spider_rose",
+			"shounka_f430_spider_rouge",
+			"shounka_f430_spider_violet",
+			"shounka_ivceco_bleufonce",
+			"shounka_ivceco_grise",
+			"shounka_ivceco_jaune",
+			"shounka_ivceco_noir",
+			"shounka_ivceco_orange",
+			"shounka_ivceco_rose",
+			"shounka_ivceco_rouge",
+			"shounka_ivceco_violet",
+			"shounka_limo_civ_bleufonce",
+			"shounka_limo_civ_grise",
+			"shounka_limo_civ_jaune",
+			"shounka_limo_civ_noir",
+			"shounka_limo_civ_orange",
+			"shounka_limo_civ_rose",
+			"shounka_limo_civ_violet",
+			"Mrshounka_lykan_c_bleufonce",
+			"Mrshounka_lykan_c_grise",
+			"Mrshounka_lykan_c_jaune",
+			"Mrshounka_lykan_c_noir",
+			"Mrshounka_lykan_c_orange",
+			"Mrshounka_lykan_c_rose",
+			"Mrshounka_lykan_c_rouge",
+			"Mrshounka_lykan_c_violet",
+			"Mrshounka_a3_308_civ_bleufonce",
+			"Mrshounka_a3_308_civ_grise",
+			"Mrshounka_a3_308_civ_jaune",
+			"Mrshounka_a3_308_civ_noir",
+			"Mrshounka_a3_308_civ_orange",
+			"Mrshounka_a3_308_civ_rose",
+			"Mrshounka_a3_308_civ_rouge",
+			"Mrshounka_a3_308_civ_violet"
+		};
+	};
 
 	class Choppers
 	{
@@ -5282,7 +5628,8 @@ class CfgTraders
 		categories[] = 
 		{
 			"Cars",
-			"Trucks"
+			"Trucks",
+			"MVP"
 		};
 	};
 
