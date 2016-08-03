@@ -65,6 +65,7 @@ showHUD[] =
 };
 
 #include "config.cpp"
+#include "Exile_SM_Towing.hpp"
 #include "CfgRemoteExec.hpp"
 #include "infiSTAR_AdminMenu.hpp"
 

@@ -2803,6 +2803,7 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// zombie car :P
 	///////////////////////////////////////////////////////////////////////////////
+	class Mrshounka_corbillard_c				    { quality = 1; price = 16000; };
 	class Mrshounka_corbillard_c_bleufonce		    { quality = 1; price = 16000; };
 	class Mrshounka_corbillard_c_grise			    { quality = 1; price = 16000; };
 	class Mrshounka_corbillard_c_jaune				{ quality = 1; price = 16000; };
@@ -2894,6 +2895,7 @@ class CfgExileArsenal
 	class shounka_f430_spider_grise		            { quality = 1; price = 35000; };
 	class shounka_f430_spider_jaune			        { quality = 1; price = 35000; };
 	class shounka_f430_spider_noir				    { quality = 1; price = 35000; };
+	class shounka_f430_spider_orange			    { quality = 1; price = 35000; };
 	class shounka_f430_spider_rose				    { quality = 1; price = 35000; };
 	class shounka_f430_spider_rouge			        { quality = 1; price = 35000; };
 	class shounka_f430_spider_violet			    { quality = 1; price = 35000; };
@@ -2942,6 +2944,8 @@ class CfgExileCustomCode
 	ExileClient_object_item_consume = "Overrides\ExileClient_object_item_consume.sqf";
 	ExileClient_object_item_craft = "fixes\ExileClient_object_item_craft.sqf";
 	ExileServer_object_tree_network_chopTreeRequest = "fixes\ExileServer_object_tree_network_chopTreeRequest.sqf";
+	//Enigma Deploybike
+	ExileClient_gui_inventory_event_onSlotDoubleClick = "Custom\EnigmaPersonalVehicle\ExileClient_gui_inventory_event_onSlotDoubleClick.sqf"; 
 };
 class CfgExileEnvironment
 {
