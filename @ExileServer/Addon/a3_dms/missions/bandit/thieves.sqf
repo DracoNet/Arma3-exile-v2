@@ -52,7 +52,7 @@ _group =
 	_pos,					// Position of AI
 	_AICount,				// Number of AI
 	"hardcore",				// "random","hardcore","difficult","moderate", or "easy"
-	"random", 				// "random","assault","MG","sniper" or "unarmed" OR [_type,_launcher]
+	"assault", 				// "random","assault","MG","sniper" or "unarmed" OR [_type,_launcher]
 	_side 					// "bandit","hero", etc.
 ] call DMS_fnc_SpawnAIGroup;
 

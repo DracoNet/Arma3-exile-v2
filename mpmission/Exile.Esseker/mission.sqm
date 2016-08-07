@@ -12,8 +12,14 @@ class Mission
 		"cabuildings_config",
 		"camisc3_config",
 		"cabuildings2_misc_cargo_config",
-		"camisc_e_config"
-		
+		"camisc_e_config",
+		"mrshounka_a3_308_p",
+		"mrshounka_buggy_p",
+		"mrshounka_chevrolet_avalanche_p",
+		"mr_own_hummer",
+		"mrshounka_yamaha_p",
+		"mrshounka_lykan_p",
+		"uh1h"
 	};
 	addOnsAuto[]=
 	{
@@ -1054,7 +1060,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=9;
+		items=14;
 
 		class Item0
 		{
@@ -1125,9 +1131,9 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={6656.0073,245.36209,3847.7712};
-			name="SpawnPlava";
-			text="Plava MC";
+			position[]={4573.5,245.36209,3576.12};
+			name="SpawnPetlov";
+			text="Petlov Grad";
 			type="ExileSpawnZone";
 			markerType="ELLIPSE";
 			colorName="ColorBlack";
@@ -1151,7 +1157,17 @@ class Mission
 			b=250;
 			drawBorder=1;
 		};
-		class Item7
+		class Item7 // Map Marker Text
+		{
+			position[] = {9420.9805,5.8906245,4770.3354};
+			name= "TraderCityMarker_1";
+			text= "Trader Adela (Safe Zone)";
+			type= "mil_dot";
+			colorName= "ColorBlack";
+			a = 1;
+			b = 1;
+		};
+		class Item8
 		{
 			position[]={3982.6892,150.25922,9277.5684};
 			name="TraderCityMarker_2";
@@ -1164,7 +1180,17 @@ class Mission
 			b=250;
 			drawBorder=1;
 		};
-		class Item8
+		class Item9 // Map Marker Text
+		{
+			position[] = {3982.6892,150.25922,9277.5684};
+			name= "TraderCityMarker_2";
+			text= "Trader ES Petrol (Safe Zone)";
+			type= "mil_dot";
+			colorName= "ColorBlack";
+			a = 1;
+			b = 1;
+		};
+		class Item10
 		{
 			position[]={973.68921,0,2774.5684};
 			name="TraderCityMarker_3";
@@ -1177,6 +1203,37 @@ class Mission
 			b=250;
 			drawBorder=1;
 		};
+		class Item11 // Map Marker Text
+		{
+			position[] = {973.68921,0,2774.5684};
+			name= "TraderCityMarker_3";
+			text= "Trader Twist (Safe Zone)";
+			type= "mil_dot";
+			colorName= "ColorBlack";
+			a = 1;
+			b = 1;
+		};
+		class Item12
+		{
+			position[]={6646.02,0,3999.58};
+			name="ContaminatedZoneGhostHotel";
+			text="Contaminated Zone";
+			markerType="ELLIPSE";
+			type="ExileContaminatedZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=400;
+			b=400;
+			drawBorder=1;
+		};
+		class Item13
+		{
+			position[]={6646.02,0,3999.58};
+			name="ContaminatedZoneGhostHotelIcon";
+			text="";
+			type="ExileContaminatedZoneIcon";
+		};
+				
 	};
 class Sensors
 	{

@@ -1609,14 +1609,14 @@ class CfgExileArsenal
 	//class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
 	class Exile_Item_SafeKit						{ quality = 4; price = 25000; };
 	class Exile_Item_CodeLock						{ quality = 1; price = 5000; };
-	//class Exile_Item_Laptop						{ quality = 2; price = 9000; };
-	//class Exile_Item_BaseCameraKit				{ quality = 2; price = 5000; };
+	class Exile_Item_Laptop							{ quality = 2; price = 9000; };
+	class Exile_Item_BaseCameraKit					{ quality = 2; price = 5000; };
 	class Exile_Item_CamoTentKit					{ quality = 1; price = 250; };
 	class Exile_Item_MetalPole						{ quality = 1; price = 800; };
 	//class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
 	//class Exile_Item_MetalWire						{ quality = 1; price = 100; };
 	//class Exile_Item_Cement							{ quality = 1; price = 20; };
-	//class Exile_Item_Sand							{ quality = 1; price = 20; };
+	class Exile_Item_Sand							{ quality = 1; price = 20; };
 	//class Exile_Item_CarWheel						{ quality = 1; price = 1000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
@@ -1655,12 +1655,12 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// First Aid
 	///////////////////////////////////////////////////////////////////////////////	
-	class Exile_Item_InstaDoc                       { quality = 5; price = 1250; };
-	class Exile_Item_Vishpirin						{ quality = 3; price = 300; };
+	class Exile_Item_InstaDoc                       { quality = 2; price = 1250; };
+	class Exile_Item_Vishpirin						{ quality = 2; price = 300; };
 	class Exile_Item_Bandage	                    { quality = 2; price = 100; };
 	class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
 
-	//class Exile_Item_Defibrillator				{ quality = 1; price = 7500; };
+	//class Exile_Item_Defibrillator				{ quality = 3; price = 7500; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Tools
@@ -1964,10 +1964,10 @@ class CfgExileArsenal
 	class srifle_DMR_06_camo_F 						{ quality = 5; price = 800; };
 	class srifle_DMR_06_olive_F 					{ quality = 5; price = 800; };
 	class srifle_EBR_F 								{ quality = 3; price = 700; };
-	class srifle_GM6_camo_F 						{ quality = 6; price = 900; };
-	class srifle_GM6_F 								{ quality = 6; price = 900; };
-	class srifle_LRR_camo_F 						{ quality = 6; price = 850; };
-	class srifle_LRR_F 								{ quality = 6; price = 850; };
+	class srifle_GM6_camo_F 						{ quality = 6; price = 1900; };
+	class srifle_GM6_F 								{ quality = 6; price = 1900; };
+	class srifle_LRR_camo_F 						{ quality = 6; price = 1850; };
+	class srifle_LRR_F 								{ quality = 6; price = 1850; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// ArmA 2 Weapons
@@ -2233,7 +2233,7 @@ class CfgExileArsenal
 	class Exile_Bike_QuadBike_Black					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Blue					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Red					{ quality = 1; price = 2500; };
-	class Exile_Bike_QuadBike_White					{ quality = 1; price = 2500; };
+	class Exile_Bike_QuadBike_White					{ quality = 1; price = 2500; sellPrice = 500; };
 	class Exile_Bike_QuadBike_Nato					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Csat					{ quality = 1; price = 2500; };
 	class Exile_Bike_QuadBike_Fia					{ quality = 1; price = 2500; };
@@ -2716,8 +2716,8 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// RZInfection
 	///////////////////////////////////////////////////////////////////////////////
-	class rzinfection_antivirus_pills					{ quality = 1; price = 500; };
-	class rzinfection_antivirus_injector				{ quality = 1; price = 2000; };
+	class rzinfection_antivirus_pills					{ quality = 2; price = 500; };
+	class rzinfection_antivirus_injector				{ quality = 3; price = 2000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// yamaha R6
@@ -2826,26 +2826,26 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// armored buggy
 	///////////////////////////////////////////////////////////////////////////////
-	class Mr_Own_buggy_bleufonce			    { quality = 1; price = 19000; };
-	class Mr_Own_buggy_grise				    { quality = 1; price = 19000; };
-	class Mr_Own_buggy_jaune				    { quality = 1; price = 19000; };
-	class Mr_Own_buggy_noir				        { quality = 1; price = 19000; };
-	class Mr_Own_buggy_orange				    { quality = 1; price = 19000; };
-	class Mr_Own_buggy_rose				        { quality = 1; price = 19000; };
-	class Mr_Own_buggy_rouge				    { quality = 1; price = 19000; };
-	class Mr_Own_buggy_violet				    { quality = 1; price = 19000; };
+	class Mr_Own_buggy_bleufonce			    { quality = 4; price = 19000; };
+	class Mr_Own_buggy_grise				    { quality = 4; price = 19000; };
+	class Mr_Own_buggy_jaune				    { quality = 4; price = 19000; };
+	class Mr_Own_buggy_noir				        { quality = 4; price = 19000; };
+	class Mr_Own_buggy_orange				    { quality = 4; price = 19000; };
+	class Mr_Own_buggy_rose				        { quality = 4; price = 19000; };
+	class Mr_Own_buggy_rouge				    { quality = 4; price = 19000; };
+	class Mr_Own_buggy_violet				    { quality = 4; price = 19000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// monster trucks
 	///////////////////////////////////////////////////////////////////////////////
-	class shounka_monsteur_bleufonce				{ quality = 1; price = 25000; };
-	class shounka_monsteur_grise				    { quality = 1; price = 25000; };
-	class shounka_monsteur_jaune				    { quality = 1; price = 25000; };
-	class shounka_monsteur_noir				        { quality = 1; price = 25000; };
-	class shounka_monsteur_orange				    { quality = 1; price = 25000; };
-	class shounka_monsteur_rose				        { quality = 1; price = 25000; };
-	class shounka_monsteur_rouge			  	    { quality = 1; price = 25000; };
-	class shounka_monsteur_violet				    { quality = 1; price = 25000; };
+	class shounka_monsteur_bleufonce				{ quality = 3; price = 25000; };
+	class shounka_monsteur_grise				    { quality = 3; price = 25000; };
+	class shounka_monsteur_jaune				    { quality = 3; price = 25000; };
+	class shounka_monsteur_noir				        { quality = 3; price = 25000; };
+	class shounka_monsteur_orange				    { quality = 3; price = 25000; };
+	class shounka_monsteur_rose				        { quality = 3; price = 25000; };
+	class shounka_monsteur_rouge			  	    { quality = 3; price = 25000; };
+	class shounka_monsteur_violet				    { quality = 3; price = 25000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Truck(Trailerless)
@@ -2867,55 +2867,55 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Limo
 	///////////////////////////////////////////////////////////////////////////////
-	class shounka_limo_civ_bleufonce				{ quality = 1; price = 30000; };
-	class shounka_limo_civ_grise		            { quality = 1; price = 30000; };
-	class shounka_limo_civ_jaune			        { quality = 1; price = 30000; };
-	class shounka_limo_civ_noir				        { quality = 1; price = 30000; };
-	class shounka_limo_civ_orange				    { quality = 1; price = 30000; };
-	class shounka_limo_civ_rose			            { quality = 1; price = 30000; };
-	class shounka_limo_civ_violet			        { quality = 1; price = 30000; };
+	class shounka_limo_civ_bleufonce				{ quality = 2; price = 30000; };
+	class shounka_limo_civ_grise		            { quality = 2; price = 30000; };
+	class shounka_limo_civ_jaune			        { quality = 2; price = 30000; };
+	class shounka_limo_civ_noir				        { quality = 2; price = 30000; };
+	class shounka_limo_civ_orange				    { quality = 2; price = 30000; };
+	class shounka_limo_civ_rose			            { quality = 2; price = 30000; };
+	class shounka_limo_civ_violet			        { quality = 2; price = 30000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// dodge charger
 	///////////////////////////////////////////////////////////////////////////////
-	class Mr_Own_dodge15_civ				        { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_bleufonce				{ quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_grise				    { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_jaune				    { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_noir				    { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_orange				    { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_rose				    { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_rouge				    { quality = 1; price = 32000; };
-	class Mr_Own_dodge15_civ_violet				    { quality = 1; price = 32000; };
+	class Mr_Own_dodge15_civ				        { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_bleufonce				{ quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_grise				    { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_jaune				    { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_noir				    { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_orange				    { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_rose				    { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_rouge				    { quality = 5; price = 32000; };
+	class Mr_Own_dodge15_civ_violet				    { quality = 5; price = 32000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ferrari
 	///////////////////////////////////////////////////////////////////////////////
-	class shounka_f430_spider_bleufonce				{ quality = 1; price = 35000; };
-	class shounka_f430_spider_grise		            { quality = 1; price = 35000; };
-	class shounka_f430_spider_jaune			        { quality = 1; price = 35000; };
-	class shounka_f430_spider_noir				    { quality = 1; price = 35000; };
-	class shounka_f430_spider_orange			    { quality = 1; price = 35000; };
-	class shounka_f430_spider_rose				    { quality = 1; price = 35000; };
-	class shounka_f430_spider_rouge			        { quality = 1; price = 35000; };
-	class shounka_f430_spider_violet			    { quality = 1; price = 35000; };
+	class shounka_f430_spider_bleufonce				{ quality = 2; price = 35000; };
+	class shounka_f430_spider_grise		            { quality = 2; price = 35000; };
+	class shounka_f430_spider_jaune			        { quality = 2; price = 35000; };
+	class shounka_f430_spider_noir				    { quality = 2; price = 35000; };
+	class shounka_f430_spider_orange			    { quality = 2; price = 35000; };
+	class shounka_f430_spider_rose				    { quality = 2; price = 35000; };
+	class shounka_f430_spider_rouge			        { quality = 2; price = 35000; };
+	class shounka_f430_spider_violet			    { quality = 2; price = 35000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Lykan
 	///////////////////////////////////////////////////////////////////////////////
-	class Mrshounka_lykan_c_bleufonce				{ quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_grise		            { quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_jaune			        { quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_noir				    { quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_orange				    { quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_rose			        { quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_rouge			        { quality = 1; price = 36000; };
-	class Mrshounka_lykan_c_violet			        { quality = 1; price = 36000; };
+	class Mrshounka_lykan_c_bleufonce				{ quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_grise		            { quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_jaune			        { quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_noir				    { quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_orange				    { quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_rose			        { quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_rouge			        { quality = 2; price = 36000; };
+	class Mrshounka_lykan_c_violet			        { quality = 2; price = 36000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// planes
 	///////////////////////////////////////////////////////////////////////////////
-	class MV22				                        { quality = 1; price = 25000; };
+	class MV22				                        { quality = 2; price = 25000; };
 	class sab_camel_blu				                { quality = 1; price = 28000; };
 	class sab_camel_red				                { quality = 1; price = 28000; };
 	
@@ -2945,16 +2945,18 @@ class CfgExileCustomCode
 	ExileClient_object_item_craft = "fixes\ExileClient_object_item_craft.sqf";
 	ExileServer_object_tree_network_chopTreeRequest = "fixes\ExileServer_object_tree_network_chopTreeRequest.sqf";
 	//Enigma Deploybike
-	ExileClient_gui_inventory_event_onSlotDoubleClick = "Custom\EnigmaPersonalVehicle\ExileClient_gui_inventory_event_onSlotDoubleClick.sqf"; 
+	ExileClient_gui_inventory_event_onSlotDoubleClick = "Custom\EnigmaPersonalVehicle\ExileClient_gui_inventory_event_onSlotDoubleClick.sqf";
+	// Kill Messages
+	ExileServer_object_player_event_onMpKilled = "Overrides\KillMessages\ExileServer_object_player_event_onMpKilled.sqf";	
 };
 class CfgExileEnvironment
 {
-	class Esseker
+	class Altis 
 	{
 		class FireFlies
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 1;
+			enable = 0;
 
 			// At this hour fire flies begin to spawn
 			startHour = 18;
@@ -2966,7 +2968,7 @@ class CfgExileEnvironment
 		class Anomalies
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 1;
+			enable = 0;
 
 			// At this hour anomalies begin to spawn
 			startHour = 19;
@@ -2990,7 +2992,77 @@ class CfgExileEnvironment
 			surfaces[] = {};
 		};
 
-		class Radiation
+		class Radiation 
+		{
+			// 1 = enabled, 0 = disabled
+			enable = 1;
+		};
+
+		class Temperature
+		{
+			// Temperature in °C for the time of day, per hour
+			// Add the first index to the last index, so it is 25 indizes!
+			daytimeTemperature[] = {15.93,16.89,18.42,20.40,22.68,25.10,27.48,29.63,31.40,32.66,33.32,33.80,33.80,33.32,32.66,31.40,29.63,27.48,25.10,22.68,20.40,18.42,16.89,15.93,15.93};
+		
+			// Temperature change in °C when it is 100% overcast
+			overcast = -2;
+
+			// Temperature change in °C when it is 100% raining
+			rain = -5;
+
+			// Temperature change in °C when it is 100% windy
+			wind = -1;
+
+			// Temperature change per 100m altitude in °C
+			altitude = -0.5;
+
+			// Difference from the daytime temperature to the water temperature
+			water = -5;
+		};
+	};
+	
+	class Esseker: Altis
+	{
+		class FireFlies: FireFlies
+		{
+			// 1 = enabled, 0 = disabled
+			enable = 1;
+
+			// At this hour fire flies begin to spawn
+			startHour = 18;
+
+			// At this hour fire flies stop spawning
+			endHour = 4;
+		};
+
+		class Anomalies: Anomalies
+		{
+			// 1 = enabled, 0 = disabled
+			enable = 1;
+
+			// At this hour anomalies begin to spawn
+			startHour = 19;
+
+			// At this hour anomalies stop spawning
+			endHour = 6;
+		};
+
+		class Breathing: Breathing
+		{
+			// 1 = enabled, 0 = disabled
+			enable = 0;
+		};
+
+		class Snow: Snow
+		{
+			// 1 = enabled, 0 = disabled
+			enable = 0;
+
+			// https://community.bistudio.com/wiki/surfaceType
+			surfaces[] = {};
+		};
+
+		class Radiation: Radiation
 		{
 			// 1 = enabled, 0 = disabled
 			enable = 1;
@@ -3021,15 +3093,15 @@ class CfgExileEnvironment
 			*/
 			contaminatedZones[] =
 			{
-				{{6646.02,3999.58,207}, 30, 300}
+				{{6646.02,	3999.58,	207}, 	50, 	300}
 			};
 		};
 
-		class Temperature
+		class Temperature: Temperature
 		{
 			// Temperature in °C for the time of day, per hour
 			// Add the first index to the last index, so it is 25 indizes!
-			daytimeTemperature[] = {5.93,6.89,8.42,10.40,12.68,15.10,17.48,19.63,21.40,22.66,23.32,23.80,23.80,23.32,22.66,21.40,19.63,17.48,15.10,12.68,10.40,8.42,6.89,5.93,5.93}; //Taken 10 off everything
+			daytimeTemperature[] = {15.93,16.89,18.42,20.40,22.68,25.10,27.48,29.63,31.40,32.66,33.32,33.80,33.80,33.32,32.66,31.40,29.63,27.48,25.10,22.68,20.40,18.42,16.89,15.93,15.93};
 		
 			// Temperature change in °C when it is 100% overcast
 			overcast = -2;
@@ -3595,14 +3667,14 @@ class CfgInteractionMenus
 
 		class Actions
 		{
-			/*
+			
 			class Manage : ExileAbstractAction
 			{
 				title = "Manage";
 				condition = "true";
 				action = "_this call ExileClient_gui_baseManagement_event_show";
 			};
-			*/
+			
 			class StealFlag: ExileAbstractAction
 			{
 				title = "Steal Flag";
@@ -4660,17 +4732,17 @@ class Glasses
 			"Exile_Item_MetalPole",
 			"Exile_Item_SafeKit",
 			"Exile_Item_CamoTentKit",
-			"Exile_Item_CodeLock"
-			
+			"Exile_Item_CodeLock",
+			"Exile_Item_Laptop",
+			"Exile_Item_BaseCameraKit",
+			"Exile_Item_Rope",
+			"Exile_Item_Sand"
 			/*
 			--Not for Sale--
 			"Exile_Item_MetalScrews",
 			"Exile_Item_MetalWire",
-			"Exile_Item_Laptop",
-			"Exile_Item_BaseCameraKit",
 			"Exile_Item_MetalHedgehogKit",
 			"Exile_Item_Cement",
-			"Exile_Item_Sand",
 			"Exile_Item_MobilePhone",
 			--Unused--
 			"Exile_Item_CordlessScrewdriver",
@@ -4681,7 +4753,6 @@ class Glasses
 			"Exile_Item_SleepingMat",
 			"Exile_Item_Defibrillator",
 			"Exile_Item_Wrench",
-			"Exile_Item_Rope"
 		*/
 		};
 	};
@@ -5044,12 +5115,12 @@ class Glasses
 			"APERSMine_Range_Mag",
 			"APERSTripMine_Wire_Mag",
 			"ClaymoreDirectionalMine_Remote_Mag",
-			"DemoCharge_Remote_Mag",
+			//"DemoCharge_Remote_Mag",
 			"IEDLandBig_Remote_Mag",
 			"IEDLandSmall_Remote_Mag",
 			"IEDUrbanBig_Remote_Mag",
 			"IEDUrbanSmall_Remote_Mag",
-			"SatchelCharge_Remote_Mag",
+			//"SatchelCharge_Remote_Mag",
 			"SLAMDirectionalMine_Wire_Mag"
 		};
 	};
@@ -5315,7 +5386,7 @@ class Glasses
 	
 	class MVP
 	{
-		name = "MVP";
+		name = "HVP";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
@@ -5510,7 +5581,8 @@ class Glasses
 			"Exile_Plane_AN2_Green",
 			"Exile_Plane_Ceasar",
 			"Exile_Plane_BlackfishInfantry",
-			"Exile_Plane_BlackfishVehicle"
+			"Exile_Plane_BlackfishVehicle",
+			"MV22"
 		};
 	};
 

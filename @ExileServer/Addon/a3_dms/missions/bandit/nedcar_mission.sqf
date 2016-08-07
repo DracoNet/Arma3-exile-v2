@@ -53,6 +53,7 @@ _PossibleDifficulty		= 	[
 								"easy",
 								"moderate",
 								"moderate",
+								"difficult",
 								"difficult"
 							];
 //choose difficulty and set value

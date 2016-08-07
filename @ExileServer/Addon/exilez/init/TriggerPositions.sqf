@@ -2,12 +2,14 @@
 
 Military = [         
 [1164,10274,180],       // Camp Spencer Military
-[7641,10151,100],       // Igman Military
-[6656,3903,150]       // Military ComPlex
+[7641,10151,100]       // Igman Military
+//[6656,3903,150]       // Military ComPlex
 ];                      
                         
 NoBuildings = [         
-[9923,890,550]      // Wilderness
+[9923,890,550],      // Wilderness
+[407,591,500],       // No man's land
+[4516,2246,800]       // No man's land Middel
 ];                      
                         
 MainCitiesOnly = [              
@@ -17,8 +19,7 @@ MainCitiesOnly = [
 ];                      
                         
 NoMansLand = [        
-[407,591,500],       // No man's land
-[4516,2246,800]       // No man's land Middel
+[6646.02,3999.58,150]       // Radiation Zone (Military ComPlex)
 ];                      
                         
 Mission = [             

@@ -3059,7 +3059,7 @@ class CfgSettings
 		/**
 		 * Radius of spawn zones around the center of spawn zone markers.
 		 */
-		spawnZoneRadius = 500;
+		spawnZoneRadius = 300;
 
 		/**
 		 * These vehicles spawn on server restart close to spawn zones.
@@ -3071,8 +3071,7 @@ class CfgSettings
 		 */
 		spawnZoneVehicles[] =
 		{
-			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
+			{2, "Exile_Bike_QuadBike_White"}
 		};
 	};
 
@@ -3129,7 +3128,6 @@ class CfgSettings
 			"Exile_Bike_QuadBike_Black",
 			"Exile_Bike_QuadBike_Blue",
 			"Exile_Bike_QuadBike_Red",
-			"Exile_Bike_QuadBike_White",
 			"Exile_Bike_QuadBike_Nato",
 			"Exile_Bike_QuadBike_Csat",
 			"Exile_Bike_QuadBike_Fia",
