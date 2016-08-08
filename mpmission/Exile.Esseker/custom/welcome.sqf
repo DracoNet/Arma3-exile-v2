@@ -11,11 +11,11 @@ _fontTitle      = "PuristaSemibold"; // Font Type Of Title Messages
 _fontSubText    = "PuristaLight"; // Font Type Of SubTitle Messages
 
 
-_Delay          = 15; // Wait in seconds before the credits start after player IS ingame
-_FadeIn         = 4; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
+_Delay          = 10; // Wait in seconds before the credits start after player IS ingame
+_FadeIn         = 3; //how long one role should stay on screen. Use value from 0 to 10 where 0 is almost instant transition to next role
 
 
-_IntroMusic     = false; // Welcome Intro Song During the credits (true or false)
+_IntroMusic     = true; // Welcome Intro Song During the credits (true or false)
 
 
 _posDefault     = [0.3,0.55,0.5]; // Defualt Positions of all Credits
@@ -27,16 +27,25 @@ _title          = format ["Welcome %1",name player];
 _shorttext      = "Arma 3 Exile Esseker";
 _posText        = [0.8,0.5,0.4];
 
+//_title2         = "Website";
+//_shorttext2     = "www.my-site.com";
+//_posText2        = [0.8,0.5,0.25];
 
-_title3	        = "Custom Scripts";
-_shorttext3     = "Welcome Messages <br />AI Missions<br />Custom Traders<br />Status Bar";
-_posText3       = [0.8,0.5,0.335];
+_title3            = "Teamspeak 3";
+_shorttext3     = "ts.draconet.net";
+_posText3        = [0.8,0.5,0.25];
 
+//_title4         = "Donate";
+//_shorttext4     = "Support the server and Help it stay up";
+//_posText4        = [0.8,0.5,0.28];
 
-_title4         = "Play Fair And Enjoy";
-_shorttext4     = "Admins are Always Active";
-_posText4       = [0.8,0.5,0.4];
+_title5	        = "Custom Scripts";
+_shorttext5     = "Welcome Messages <br />AI Missions<br />Custom Traders<br />Status Bar";
+_posText5       = [0.8,0.5,0.335];
 
+_title6         = "Play Fair And Enjoy";
+_shorttext6     = "Admins are Always Active";
+_posText6       = [0.8,0.5,0.4];
 
 _title7        = "Thanks to";
 _shorttext7    = "DracoNet <br />GTX-Gaming<br /> and All our players";

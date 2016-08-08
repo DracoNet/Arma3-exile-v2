@@ -1,4 +1,5 @@
 [] execVM "scripts\bypass.sqf";
+[] execVM "scripts\bypass2.sqf";
 // statusbar
 [] execVM "addons\StatusBar\statusbar.sqf";
 

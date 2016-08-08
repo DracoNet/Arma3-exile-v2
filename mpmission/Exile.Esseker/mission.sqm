@@ -17,13 +17,15 @@ class Mission
 		"mrshounka_buggy_p",
 		"mrshounka_chevrolet_avalanche_p",
 		"mr_own_hummer",
+		"mr_own_buggy",
 		"mrshounka_yamaha_p",
 		"mrshounka_lykan_p",
-		"uh1h"
+		"UH1H"
 	};
 	addOnsAuto[]=
 	{
 		"exile_client",
+		"ryanzombiesfunctions",
 		"Esseker"
 	};
 	randomSeed=8080942;
@@ -1160,7 +1162,7 @@ class Mission
 		class Item7 // Map Marker Text
 		{
 			position[] = {9420.9805,5.8906245,4770.3354};
-			name= "TraderCityMarker_1";
+			name= "TraderCityTextMarker_1";
 			text= "Trader Adela (Safe Zone)";
 			type= "mil_dot";
 			colorName= "ColorBlack";
@@ -1183,7 +1185,7 @@ class Mission
 		class Item9 // Map Marker Text
 		{
 			position[] = {3982.6892,150.25922,9277.5684};
-			name= "TraderCityMarker_2";
+			name= "TraderCityTextMarker_2";
 			text= "Trader ES Petrol (Safe Zone)";
 			type= "mil_dot";
 			colorName= "ColorBlack";
@@ -1206,7 +1208,7 @@ class Mission
 		class Item11 // Map Marker Text
 		{
 			position[] = {973.68921,0,2774.5684};
-			name= "TraderCityMarker_3";
+			name= "TraderCityTextMarker_3";
 			text= "Trader Twist (Safe Zone)";
 			type= "mil_dot";
 			colorName= "ColorBlack";
