@@ -77,7 +77,7 @@ class CfgMusic
 	class intro 
 	{  
 		name = "intro";
-		sound[] = {"IntroSong.ogg", db+10, 1.0}; 
+		sound[] = {"IntroSong.ogg", db+9, 1.0}; 
 	};
 };
 

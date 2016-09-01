@@ -247,7 +247,7 @@ Trigger_5 = [				 //Mission Trigger
 Trigger_6 = [				 //Radiation Trigger
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   Radiation,            
-/* 2  Max Zombies */         25,                 
+/* 2  Max Zombies */         20,                 
 /* 3  Activation Delay */    5,                  
 /* 4  Spawn Delay */         5,                  
 /* 5  Respawn Delay */       5,                  
@@ -255,7 +255,7 @@ Trigger_6 = [				 //Radiation Trigger
 /* 7  Marker Color */        "ColorYellow",         
 /* 8  MarkerBrush */         "DiagGrid",          
 /* 9  Marker Alpha */        0.5,                
-/* 10 Marker Text */         "Demon",     
+/* 10 Marker Text */         "",     
 /* 11 Vest group */          Basic,              
 /* 12 Loot group */          DocAndDemon,         
 /* 13 Zombie group */        BossHardcore,           

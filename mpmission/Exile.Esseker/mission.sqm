@@ -24,10 +24,11 @@ class Mission
 		"brdm2",
 		"camisc_acr_scaffoldingsmall_config",
 		"castructures_railway_config",
-		"mrshounka_monster_p"
-		
-		
-		
+		"mrshounka_monster_p",
+		"camisc_e_wf_config",
+		"sar_ru_architecture",
+		"castructures_e_misc_misc_market_config",
+		"ind_tank_config"
 	};
 	addOnsAuto[]=
 	{

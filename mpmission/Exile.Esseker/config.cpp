@@ -2070,15 +2070,6 @@ class CfgInteractionMenus
 				condition = "!(alive ExileClientInteractionObject)";
 				action = "_this call ExileClient_object_player_identifyBody";
 			};
-			
-			//////////////Added by [_ZEN_]happydayz/////////////////
-
-			class Revive: ExileAbstractAction
-			{
-				title = "Perform CPR";
-				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
-				action = "_this spawn Enigma_RevivePlyr";
-			};    
 		/*
 			class HideCorpse: ExileAbstractAction
 			{
@@ -2087,6 +2078,14 @@ class CfgInteractionMenus
 				action = "['HideBody', (_this select 0)] call ExileClient_action_execute";
 			};
 		*/
+			//////////////Added by [_ZEN_]happydayz/////////////////
+
+			class Revive: ExileAbstractAction
+			{
+				title = "Perform CPR";
+				condition = "(!(alive ExileClientInteractionObject) && (ExileClientInteractionObject getVariable ['EnigmaRevivePermitted', true]) && (magazines player find 'Exile_Item_Defibrillator' >= 0))";
+				action = "_this spawn Enigma_RevivePlyr";
+			}; 
 		};
 	};
 };
@@ -2292,16 +2291,16 @@ class CfgPlayer
 class CfgSlothMachine
 {
 	spinCost = 100;
-	Jackpot = 10100;
+	Jackpot = 50100;
 	
 	chances[] = 
 	{
-		{85, ""}, 					// 85% = Nothing
-		{95, "Level1"}, 			// 10% = 1pt
-		{96, "Level2"}, 			// 1% = 10pt
-		{97, "Level3"}, 			// 1% = 25pt
-		{98, "Level4"}, 			// 1% = 50pt
-		{99, "Level5"},				// 1% = 100pt
+		{70, ""}, 					// 70% = Nothing
+		{80, "Level1"}, 			// 10% = 1pt
+		{90, "Level2"}, 			// 5% = 10pt
+		{95, "Level3"}, 			// 3% = 25pt
+		{97, "Level4"}, 			// 2% = 50pt
+		{99, "Level5"},				// 2% = 100pt
 		{100, "Jackpot"} 			// 1% = Jackpot
 	};
 
@@ -2310,31 +2309,31 @@ class CfgSlothMachine
 		class Level1
 		{
 			symbol = "\exile_assets\texture\item\Exile_Item_ToiletPaper.paa";
-			prize = 101;
+			prize = 110;
 		};
 
 		class Level2
 		{
 			symbol = "\exile_assets\texture\item\Exile_Item_CockONut.paa";
-			prize = 110;
+			prize = 200;
 		};
 
 		class Level3
 		{
 			symbol = "\exile_assets\texture\item\Exile_Item_Beer.paa";
-			prize = 125;
+			prize = 350;
 		};
 
 		class Level4
 		{
 			symbol = "\exile_assets\texture\item\Exile_Item_Knife.paa";
-			prize = 150;
+			prize = 600;
 		};
 
 		class Level5
 		{
 			symbol = "\exile_assets\texture\item\Exile_Item_Safe.paa";
-			prize = 200;
+			prize = 1100;
 		};
 		
 		class Jackpot
@@ -2401,6 +2400,7 @@ class CfgTraderCategories
 class CfgTraders
 {
 	#include "TRADERS\CfgTraders.hpp"
+	//#include "TRADERS\CfgTradersCommunity.hpp"
 };
 class CfgTrading 
 {

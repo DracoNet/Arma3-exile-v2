@@ -1,4 +1,4 @@
-# Arma3-exile ![Arma 1.62](https://img.shields.io/badge/Arma-1.62-blue.svg?style=plastic) ![Exile 1.0.1 Potato](https://img.shields.io/badge/Exile-1.0.1%20Potato-C72651.svg?style=plastic) ![Build Version 2.0](https://img.shields.io/badge/Build_Version-2.0-lightgrey.svg?style=plastic) ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=plastic)
+# Arma3-exile ![Arma 1.62](https://img.shields.io/badge/Arma-1.62-blue.svg?style=plastic) ![Exile 1.0.1 Sweet Potato](https://img.shields.io/badge/Exile-1.0.1%20Sweet%20Potato-C72651.svg?style=plastic) ![Build Version 2.0.1](https://img.shields.io/badge/Build_Version-2.0.1-lightgrey.svg?style=plastic) ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg?style=plastic)
 
 
 ##Mods needed
