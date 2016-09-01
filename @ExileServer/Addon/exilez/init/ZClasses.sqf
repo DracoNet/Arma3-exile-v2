@@ -60,11 +60,16 @@ MediumCiv = [
 ];
 
 Hard = [
-[walkerCivilians,	10],
-[slowSoldiers,	    10],
+[walkerCivilians,	50],
+[walkerSoldiers,	25],
+[slowCivilians,	    50],
+[slowSoldiers,	    25],
+[mediumCivilians,	20],
+[mediumSoldiers,	15],
+[fastCivilians,		10],
+[fastSoldiers,		5],
 [crawlers,			5],
-[spiders,			4],
-[boss,				4]
+[spiders,			15]
 ];
 
 Hardcore = [
@@ -74,4 +79,14 @@ Hardcore = [
 [fastSoldiers,	    15],
 [crawlers,		    1],
 [spiders,			3]
+];
+
+BossHardcore = [
+[mediumCivilians,	10],
+[mediumSoldiers,	10],
+[fastCivilians,		15],
+[fastSoldiers,		15],
+[crawlers,			3],
+[spiders,			5],
+[boss,				1]
 ];

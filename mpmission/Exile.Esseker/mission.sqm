@@ -20,7 +20,14 @@ class Mission
 		"mr_own_buggy",
 		"mrshounka_yamaha_p",
 		"mrshounka_lykan_p",
-		"UH1H"
+		"UH1H",
+		"brdm2",
+		"camisc_acr_scaffoldingsmall_config",
+		"castructures_railway_config",
+		"mrshounka_monster_p"
+		
+		
+		
 	};
 	addOnsAuto[]=
 	{
@@ -1062,182 +1069,192 @@ class Mission
 	};
 	class Markers
 	{
-		items=14;
-
-		class Item0
+        items=18;
+       
+        /////////////////////////////////////////
+        //Spawns
+        /////////////////////////////////////////
+        class Item0
+        {
+            position[]={11155.899,0,9104.815};
+            name="SpawnKamen";
+            text="Kamen";
+            type="ExileSpawnZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=300;
+            b=300;
+            drawBorder=1;
+        };
+        class Item1
+        {
+            position[]={11155.899,0,9104.815};
+            name="SpawnKamenIcon";
+            text="";
+            type="ExileSpawnZoneIcon";
+        };
+ 
+        class Item2
+        {
+            position[]={4260.671,0,2965.061};
+            name="SpawnPetlov";
+            text="Petlov";
+            type="ExileSpawnZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=300;
+            b=300;
+            drawBorder=1;
+        };
+        class Item3
+        {
+            position[]={4260.671,0,2965.061};
+            name="SpawnPetlovIcon";
+            text="";
+            type="ExileSpawnZoneIcon";
+        };
+ 
+        class Item4
+        {
+            position[]={8995.509,0,7892.216};
+            name="SpawnPilana";
+            text="Pilana";
+            type="ExileSpawnZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=300;
+            b=300;
+            drawBorder=1;
+        };
+        class Item5
+        {
+            position[]={8995.509,0,7892.216};
+            name="SpawnPilanaIcon";
+            text="";
+            type="ExileSpawnZoneIcon";
+        };
+ 
+        class Item6
+        {
+            position[]={5462.658,0,7440.316};
+            name="SpawnFocha";
+            text="Focha";
+            type="ExileSpawnZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=300;
+            b=300;
+            drawBorder=1;
+        };
+        class Item7
+        {
+            position[]={5462.658,0,7440.316};
+            name="SpawnFochaIcon";
+            text="";
+            type="ExileSpawnZoneIcon";
+        };
+       
+        class Item8
+        {
+            position[]={5109.515,0,4647.934};
+            name="SpawnPlomino";
+            text="Plomino";
+            type="ExileSpawnZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=300;
+            b=300;
+            drawBorder=1;
+        };
+        class Item9
+        {
+            position[]={5109.515,0,4647.934};
+            name="SpawnPlominoIcon";
+            text="";
+            type="ExileSpawnZoneIcon";
+        };
+       
+        /////////////////////////////////////////
+        //Traders
+        /////////////////////////////////////////
+        class Item10
+        {
+            position[]={6629.942,0,3867.75};
+            name="TraderZoneSouth";
+            text="TraderZoneSouth";
+            type="ExileTraderZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=500;
+            b=500;
+            drawBorder=1;
+        };
+       
+        class Item11
+        {
+            position[]={6629.942,0,3867.75};
+            name="TraderZoneSouthMarkerIcon";
+            text="";
+            type="ExileTraderZoneIcon";
+        };
+       
+        class Item12
+        {
+            position[]={7643.019,0,10152.064};
+            name="TraderZoneNorth";
+            text="TraderZoneNorth";
+            type="ExileTraderZone";
+            markerType="ELLIPSE";
+            colorName="ColorBlack";
+            fillName="Border";
+            a=500;
+            b=500;
+            drawBorder=1;
+        };
+       
+        class Item13
+        {
+            position[]={7643.019,0,10152.064};
+            name="TraderZoneNorthMarkerIcon";
+            text="";
+            type="ExileTraderZoneIcon";
+        };
+		class Item14
 		{
-			position[]={7149.6777,205.41414,9346.6631};
-			name="SpawnTuk";
-			text="Tuk";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		class Item1
-		{
-			position[]={11829.729,18.07465,7939.022};
-			name="SpawnNoviGrad";
-			text="Novi Grad";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-
-		class Item2
-		{
-			position[]={9927.9355,289.90958,904.04224};
-			name="SpawnWilderness";
-			text="Wilderness";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		class Item3
-		{
-			position[]={9926.5293,12.364729,12083.253};
-			name="SpawnGrozna";
-			text="Grozna Mountain";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-
-		class Item4
-		{
-			position[]={1958.6414,162.65282,7812.5898};
-			name="SpawnRama";
-			text="Rama";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		class Item5
-		{
-			position[]={4573.5,245.36209,3576.12};
-			name="SpawnPetlov";
-			text="Petlov Grad";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		
-		
-		class Item6
-		{
-			position[]={9420.9805,5.8906245,4770.3354};
-			name="TraderCityMarker_1";
-			text="Trader City";
-			markerType="ELLIPSE";
-			type="ExileTraderZone";
-			colorName="ColorBlue";
-			fillName="SolidBorder";
-			a=250;
-			b=250;
-			drawBorder=1;
-		};
-		class Item7 // Map Marker Text
-		{
-			position[] = {9420.9805,5.8906245,4770.3354};
-			name= "TraderCityTextMarker_1";
-			text= "Trader Adela (Safe Zone)";
-			type= "mil_dot";
-			colorName= "ColorBlack";
-			a = 1;
-			b = 1;
-		};
-		class Item8
-		{
-			position[]={3982.6892,150.25922,9277.5684};
-			name="TraderCityMarker_2";
-			text="Trader City";
-			markerType="ELLIPSE";
-			type="ExileTraderZone";
-			colorName="ColorBlue";
-			fillName="SolidBorder";
-			a=250;
-			b=250;
-			drawBorder=1;
-		};
-		class Item9 // Map Marker Text
-		{
-			position[] = {3982.6892,150.25922,9277.5684};
-			name= "TraderCityTextMarker_2";
-			text= "Trader ES Petrol (Safe Zone)";
-			type= "mil_dot";
-			colorName= "ColorBlack";
-			a = 1;
-			b = 1;
-		};
-		class Item10
-		{
-			position[]={973.68921,0,2774.5684};
-			name="TraderCityMarker_3";
-			text="Trader City";
-			markerType="ELLIPSE";
-			type="ExileTraderZone";
-			colorName="ColorBlue";
-			fillName="SolidBorder";
-			a=250;
-			b=250;
-			drawBorder=1;
-		};
-		class Item11 // Map Marker Text
-		{
-			position[] = {973.68921,0,2774.5684};
-			name= "TraderCityTextMarker_3";
-			text= "Trader Twist (Safe Zone)";
-			type= "mil_dot";
-			colorName= "ColorBlack";
-			a = 1;
-			b = 1;
-		};
-		class Item12
-		{
-			position[]={6646.02,0,3999.58};
-			name="ContaminatedZoneGhostHotel";
-			text="Contaminated Zone";
-			markerType="ELLIPSE";
-			type="ExileContaminatedZone";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=400;
-			b=400;
-			drawBorder=1;
-		};
-		class Item13
-		{
-			position[]={6646.02,0,3999.58};
+			position[]={6602.26,0,1756.14};
 			name="ContaminatedZoneGhostHotelIcon";
 			text="";
 			type="ExileContaminatedZoneIcon";
 		};
-				
+		class Item15
+		{ 
+			position[]={11132.9,0,9095.65};
+			name="ConcreteMixerZoneIcon";
+			text="";
+			type="ExileConcreteMixerZoneIcon";
+		};
+		class Item16
+		{ 
+			position[]={4004.7,0,4522.35};
+			name="ConcreteMixerZoneIcon2";
+			text="";
+			type="ExileConcreteMixerZoneIcon";
+		};
+		class Item17
+		{ 
+			position[]={7373.25,0,5309.02};
+			name="ConcreteMixerZoneIcon3";
+			text="";
+			type="ExileConcreteMixerZoneIcon";
+		};
 	};
-class Sensors
+/* class Sensors
 	{
 		items=3;
 		class Item0
@@ -1276,7 +1293,7 @@ class Sensors
 		};
 		class Item2
 		{
-			position[]={973.6892,0,2774.5684};
+			position[]={1691.76,0,3289.13};
 			a=250;
 			b=250;
 			activationBy="ANY";
@@ -1291,7 +1308,7 @@ class Sensors
 			{
 			};
 		};
-	};
+	};	*/
 };
 class Intro
 {

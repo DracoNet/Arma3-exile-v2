@@ -82,7 +82,7 @@ _Ryanzombiesjumpdemon                  = 1;      //Jumping Demons
 _Ryanzombiesfeed                       = -1;     //Feeding Zombies
 _Ryanzombiesfeeddemon                  = 1;      //Feeding Demons
                                                  
-_Ryanzombiesinfection                  = 1;     //Enable infections *(-1 to disable)
+_Ryanzombiesinfection                  = -1;     //Enable infections *(-1 to disable)
 _ryanzombiesinfectedchance             = 1;     //Precent chances to be infected on hit
 _ryanzombiesinfectedrate               = 0.05;   //Damage per minute when infected (+/- 30 minutes to live)
 _ryanzombiesinfectedsymptoms           = 0.7;    //Symptomes showed when infected 0.9 = Normal 0.7 = Less 0.5 = None
@@ -104,9 +104,8 @@ _ryanzombiesmovementspeedcrawler       = 1;      //Animation speed for crawler
 //Default Altis SafeZones
 SafeZonePositions =
 [//  [[Coordinates],Radius]  // You can Get the safezone information directly from your mission.sqm under class Markers
-  [[9421.6963,4771.3169],250],
-  [[3981.4675,9277.5674],250],
-  [[973.6892,2774.5684],250]
+  [[6629.942,3867.75],250],
+  [[7643.019,10152.064],250]
 ];
 
 UseHarassingZombies          = true;             //
@@ -211,8 +210,8 @@ Trigger_4 = [				 //No Man Land
 /* 4  Spawn Delay */         10,                 
 /* 5  Respawn Delay */       30,                 
 /* 6  Show Trigger On Map */ true,               
-/* 7  Marker Color */        "ColorBlack",         
-/* 8  MarkerBrush */         "Solid",            
+/* 7  Marker Color */        "ColorRed",         
+/* 8  MarkerBrush */         "DiagGrid",            
 /* 9  Marker Alpha */        0.2,                
 /* 10 Marker Text */         "",                 
 /* 11 Vest group */          Basic,              
@@ -227,7 +226,7 @@ Trigger_4 = [				 //No Man Land
 Trigger_5 = [				 //Mission Trigger
 /* 0  Use this trigger */    True,               
 /* 1  Trigger Positions */   Mission,            
-/* 2  Max Zombies */         15,                 
+/* 2  Max Zombies */         20,                 
 /* 3  Activation Delay */    5,                  
 /* 4  Spawn Delay */         5,                  
 /* 5  Respawn Delay */       5,                  
@@ -240,13 +239,33 @@ Trigger_5 = [				 //Mission Trigger
 /* 12 Loot group */          DocAndAmmo,         
 /* 13 Zombie group */        Hardcore,           
 /* 14 Avoid Territory */     false,              
-/* 15 Mission Radius */      1500,               
+/* 15 Mission Radius */      1000,               
 /* 16 Mission SQF */         triggerMission,    
 /* 17 Loot Box */            triggerLootbox     
 ];
 
+Trigger_6 = [				 //Radiation Trigger
+/* 0  Use this trigger */    True,               
+/* 1  Trigger Positions */   Radiation,            
+/* 2  Max Zombies */         25,                 
+/* 3  Activation Delay */    5,                  
+/* 4  Spawn Delay */         5,                  
+/* 5  Respawn Delay */       5,                  
+/* 6  Show Trigger On Map */ true,               
+/* 7  Marker Color */        "ColorYellow",         
+/* 8  MarkerBrush */         "DiagGrid",          
+/* 9  Marker Alpha */        0.5,                
+/* 10 Marker Text */         "Demon",     
+/* 11 Vest group */          Basic,              
+/* 12 Loot group */          DocAndDemon,         
+/* 13 Zombie group */        BossHardcore,           
+/* 14 Avoid Territory */     false,              
+/* 15 Mission Radius */      0,                  
+/* 16 Mission SQF */         nil,                
+/* 17 Loot Box */            nil    
+];
 // List all the trigger group to use here.
-Triggers = [Trigger_1,Trigger_2,Trigger_3,Trigger_4,Trigger_5];
+Triggers = [Trigger_1,Trigger_2,Trigger_3,Trigger_4,Trigger_5,Trigger_6];
 
 // DON'T EDIT BELOW
 

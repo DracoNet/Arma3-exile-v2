@@ -3414,7 +3414,7 @@ _newObject setVectorDirAndUp [[-0.823553,0.567216,-0.00518728], [-0.0286727,-0.0
 
 
 ////////////////BLACK MARKET TOWN
-
+/*
 _newObject = createVehicle ['Land_JunkPile_F', [1012.75,2805.75,-0.00126648], [], 0, 'CAN_COLLIDE']; 
 _newObject enableSimulation false; 
 _newObject allowDamage false;
@@ -6120,3 +6120,4 @@ _newObject enableSimulation false;
 _newObject allowDamage false;
 _newObject setPosATL [974.527,2881.86,2.61259]; 
 _newObject setVectorDirAndUp [[-0.0732125,-0.997311,-0.00317756], [-0.0653208,0.00161587,0.997863]];
+*/

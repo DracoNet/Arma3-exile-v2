@@ -2885,10 +2885,10 @@ class CfgSettings
 		class Database 
 		{
 			// Remove all deleted items from the database after X days
-			permanentlyDeleteTime = 3;
+			permanentlyDeleteTime = 5;
 			
 			// Remove all territories (and contructions + containers in it) that were not paid after X days
-			territoryLifeTime = 7;
+			territoryLifeTime = 10;
 
 			// Remove all containers outside of territories that have not been used for X days
 			// Example: Tents
@@ -2899,16 +2899,16 @@ class CfgSettings
 			constructionLifeTime = 2;
 
 			// Remove all vehicles that were not moved/used for X days
-			vehicleLifeTime = 3;
+			vehicleLifeTime = 5;
 			
 			// Set safe as abandoned
 			abandonedTime = 7;
 			
 			// Deletes a base X days after the flag is stolen if the ransom money isn't paid
-			stolenFlagLifeTime = 3;
+			stolenFlagLifeTime = 5;
 			
 			// Sets door & safe pins to 0000 and marks safes to abandoned X days after the flag is stolen if the ransom money isn't paid
-			unlockLifeTime = 2;
+			unlockLifeTime = 5;
 		};
 	};
 
@@ -3019,7 +3019,8 @@ class CfgSettings
 			"ItemMap", // Because why not
 			"Exile_Item_XM8",
 			"ItemRadio",
-			"Exile_Item_PlasticBottleFreshWater"
+			"Exile_Item_PlasticBottleFreshWater",
+			"Exile_Item_ExtensionCord"
 		};
 
 		/**
@@ -3059,7 +3060,7 @@ class CfgSettings
 		/**
 		 * Radius of spawn zones around the center of spawn zone markers.
 		 */
-		spawnZoneRadius = 300;
+		spawnZoneRadius = 250;
 
 		/**
 		 * These vehicles spawn on server restart close to spawn zones.
@@ -3125,25 +3126,22 @@ class CfgSettings
 		// Stuff to spawn on roads
 		ground[] = 
 		{
-			"Exile_Bike_QuadBike_Black",
 			"Exile_Bike_QuadBike_Blue",
 			"Exile_Bike_QuadBike_Red",
 			"Exile_Bike_QuadBike_Nato",
 			"Exile_Bike_QuadBike_Csat",
-			"Exile_Bike_QuadBike_Fia",
 			"Exile_Bike_QuadBike_Guerilla01",
 			"Exile_Bike_QuadBike_Guerilla02",
 			"Exile_Car_Volha_Blue",
 			"Exile_Car_Volha_White",
 			"Exile_Car_Lada_Green",
 			"Exile_Car_Lada_Taxi",
-			"Exile_Car_TowTractor_White",
 			"Exile_Car_UAZ_Open_Green",
 			"Exile_Car_UAZ_Green",
 			"Exile_Car_LandRover_Ambulance_Desert",
-			"Exile_Car_Tractor_Red",
-			"Exile_Car_OldTractor_Red",
-			"Exile_Car_Octavius_White"
+			"Exile_Car_Octavius_White",
+			"Exile_Car_Golf_Red",
+			"Exile_Car_Ikarus_Red"
 		};
 
 		/**
@@ -3283,7 +3281,7 @@ class CfgSettings
 			{4, 0} = Every 4 hours
 			{1, 30} = Every one and a half hour (who the hell would do this?)
 		*/
-		restartTimer[] = {3, 0};
+		restartTimer[] = {4, 0};
 
 		/*
 			Kicks players before restart to prevent gear loss.
@@ -3292,7 +3290,7 @@ class CfgSettings
 			0 = off
 			1 = on
 		*/
-		useAutoKick = 0;
+		useAutoKick = 1;
 
 		/*
 			Number of minutes before the server kicks players that did

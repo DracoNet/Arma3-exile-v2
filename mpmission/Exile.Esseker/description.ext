@@ -2,11 +2,11 @@
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
 author = "DracoNet & Dani523d";
-onLoadName = "Exile Mod";
-onLoadMission= "www.exilemod.com";
+onLoadName = "Rubber Duck Gaming";
+onLoadMission= "www.draconet.net/RD";
 loadScreen = "exile_assets\texture\mod\logo.paa"; 
 
-disableChannels[] = {0, 2};
+disableChannels[] = {{0,true,true},{1,false,true},{2,true,true}};
 OnLoadIntro = "";
 OnLoadIntroTime = false;
 OnLoadMissionTime = false;
@@ -77,8 +77,13 @@ class CfgMusic
 	class intro 
 	{  
 		name = "intro";
-		sound[] = {"IntroSong.ogg", db+8, 1.0}; 
+		sound[] = {"IntroSong.ogg", db+10, 1.0}; 
 	};
+};
+
+class CfgFunctions
+{
+    #include "ExAdClient\CfgFunctions.cpp"
 };
 
 class RscTitles

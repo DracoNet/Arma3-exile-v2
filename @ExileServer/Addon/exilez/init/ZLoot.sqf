@@ -80,6 +80,42 @@ DocAndAmmo =
 	] call BIS_fnc_selectRandom;
 	_return;
 };
+
+DocAndDemon = 
+{
+	_return = [
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_InstaDoc",
+	"Exile_Item_RubberDuck",
+	"Exile_Item_RubberDuck",
+	"Exile_Item_RubberDuck",
+	"Exile_Item_RubberDuck",
+	"Exile_Item_RubberDuck",
+	"Exile_Item_DuctTape",
+	"Exile_Item_DuctTape",
+	"Exile_Item_DuctTape",
+	"Exile_Item_DuctTape",
+	"Exile_Headgear_SantaHat",
+	"Exile_Headgear_SantaHat",
+	"Exile_Headgear_SantaHat",
+	"HandGrenade",
+	"HandGrenade",
+	"Exile_Item_Defibrillator",
+	"Exile_Item_Codelock",
+	"Exile_Item_ConcreteDoorKit",
+	"Exile_Item_SafeKit"
+	
+	] call BIS_fnc_selectRandom;
+	_return;
+};
 	
 Nothing = 
 {
