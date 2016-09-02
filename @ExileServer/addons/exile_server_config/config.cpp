@@ -3355,7 +3355,6 @@ class CfgSettings
 		{
 			type = "spawn";
 			function = "ExileServer_system_event_earthQuake_start";
-			minTime = 90;
 			maxTime = 180;
 			minimumPlayersOnline = 2;
 		};
