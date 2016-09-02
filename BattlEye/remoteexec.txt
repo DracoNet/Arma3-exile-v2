@@ -1,5 +1,1 @@
-//new
-7 "ExileClient_system_network_dispatchIncomingMessage"
-7 "FN_infiSTAR_C"
-7 "SERVER_REQ_INFI_CLIENT"
-7 "" !="exileserver_system_network_dispatchincomingmessage.*" !="fnc_adminreq \[.*\]" !="true" !="" !="exadserver_fnc_clientrequest.*"
+7 "" !="exadserver_fnc_clientrequest.*"

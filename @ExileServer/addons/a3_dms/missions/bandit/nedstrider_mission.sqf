@@ -48,6 +48,7 @@ _PossibleDifficulty		= 	[
 								"difficult",
 								"difficult",
 								"difficult",
+								"difficult",
 								"hardcore",
 								"hardcore",
 								"hardcore",

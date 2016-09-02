@@ -1,3 +1,1 @@
-//new
-7 "" !"NVG_TargetG" !"Shot" !"Exile_Unit_Player" !"Logic" !="2:.*" !"Exile_"
-1 "Exile_Unit_Player"
+7 "" !"Exile_"
