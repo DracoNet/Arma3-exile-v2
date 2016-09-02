@@ -3355,8 +3355,9 @@ class CfgSettings
 		{
 			type = "spawn";
 			function = "ExileServer_system_event_earthQuake_start";
+			minTime = 60;
 			maxTime = 180;
-			minimumPlayersOnline = 2;
+			minimumPlayersOnline = 1;
 		};
 
 		class SupplyBox 
@@ -3443,7 +3444,7 @@ class CfgSettings
 			function = "ExileServer_system_event_abandonedSafe_start";
 			minTime = 60; // minutes
 			maxTime = 120; // minutes
-			minimumPlayersOnline = 2;
+			minimumPlayersOnline = 0;
 			markerTime = 15; // minutes
 		};
 

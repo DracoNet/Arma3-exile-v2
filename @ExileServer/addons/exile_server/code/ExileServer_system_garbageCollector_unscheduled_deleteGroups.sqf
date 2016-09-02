@@ -13,42 +13,45 @@ private["_deleteGroup","_units","_unit"];
 {
 	if !(_x isEqualTo ExileServerGraveyardGroup) then 
 	{
-		_deleteGroup = false;
-		_group = _x;
-		_units = units _group;
-		switch (count _units) do 
+		if !(_x isEqualTo ExileServerLoneWolfGroup) then 
 		{
-			case 0: 
+			_deleteGroup = false;
+			_group = _x;
+			_units = units _group;
+			switch (count _units) do 
 			{
-				_deleteGroup = true;
-			};
-			case 1:
-			{
-				_unit = _units select 0;
-				if !(_unit isKindOf "Exile_Unit_GhostPlayer") then 
+				case 0: 
 				{
-					if !(alive _unit) then 
+					_deleteGroup = true;
+				};
+				case 1:
+				{
+					_unit = _units select 0;
+					if !(_unit isKindOf "Exile_Unit_GhostPlayer") then 
 					{
-						if (isNull ExileServerGraveyardGroup) then 
+						if !(alive _unit) then 
 						{
-							ExileServerGraveyardGroup = createGroup independent;
-							ExileServerGraveyardGroup setGroupIdGlobal ["Graveyard"];
+							if (isNull ExileServerGraveyardGroup) then 
+							{
+								ExileServerGraveyardGroup = createGroup independent;
+								ExileServerGraveyardGroup setGroupIdGlobal ["Graveyard"];
+							};
+							[_unit] joinSilent ExileServerGraveyardGroup;
+							_deleteGroup = true;
 						};
-						[_unit] joinSilent ExileServerGraveyardGroup;
-						_deleteGroup = true;
 					};
 				};
 			};
-		};
-		if (_deleteGroup) then 
-		{
-			if (local _group) then 
+			if (_deleteGroup) then 
 			{
-				deleteGroup _group;
-			}
-			else 
-			{
-				[groupOwner _group, "DeleteGroupPlz", [_group]] call ExileServer_system_network_send_to;
+				if (local _group) then 
+				{
+					deleteGroup _group;
+				}
+				else 
+				{
+					[groupOwner _group, "DeleteGroupPlz", [_group]] call ExileServer_system_network_send_to;
+				};
 			};
 		};
 	};
