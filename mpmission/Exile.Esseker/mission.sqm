@@ -1192,8 +1192,8 @@ class Mission
             markerType="ELLIPSE";
             colorName="ColorBlack";
             fillName="Border";
-            a=500;
-            b=500;
+            a=300;
+            b=300;
             drawBorder=1;
         };
        
@@ -1214,8 +1214,8 @@ class Mission
             markerType="ELLIPSE";
             colorName="ColorBlack";
             fillName="Border";
-            a=500;
-            b=500;
+            a=300;
+            b=300;
             drawBorder=1;
         };
        
@@ -1226,6 +1226,9 @@ class Mission
             text="";
             type="ExileTraderZoneIcon";
         };
+		/////////////////////////////////////////
+        //Radiation Icon
+        /////////////////////////////////////////
 		class Item14
 		{
 			position[]={6602.26,0,1756.14};
@@ -1233,6 +1236,9 @@ class Mission
 			text="";
 			type="ExileContaminatedZoneIcon";
 		};
+		/////////////////////////////////////////
+        //Concrete Mixer Icons
+        /////////////////////////////////////////
 		class Item15
 		{ 
 			position[]={11132.9,0,9095.65};
