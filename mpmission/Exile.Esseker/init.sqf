@@ -3,12 +3,11 @@
 // statusbar
 [] execVM "addons\StatusBar\statusbar.sqf";
 
-// Welcome Credits by Gr8 v0.1
+// Welcome Credits by Gr8
 [] execVM "custom\welcome.sqf";
 
 //Enigma Revive
 [] execVM "custom\EnigmaRevive\init.sqf";
-
 /*
 if (isServer) then {
 	[] execVM "custom\safezones.sqf";
