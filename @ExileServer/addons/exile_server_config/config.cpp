@@ -3060,7 +3060,7 @@ class CfgSettings
 		/**
 		 * Radius of spawn zones around the center of spawn zone markers.
 		 */
-		spawnZoneRadius = 250;
+		spawnZoneRadius = 200;
 
 		/**
 		 * These vehicles spawn on server restart close to spawn zones.
@@ -3288,10 +3288,10 @@ class CfgSettings
 		serverPassword = "";
 
 		// Autolocks server until its ready to accept players
-		useAutoLock = 0;
+		useAutoLock = 1;
 
 		// Server will autoLock at that time before restart (minutes)
-		restartAutoLock = 3;
+		restartAutoLock = 4;
 
 		/*
 			Number of hours and minutes of your restart period.
@@ -3317,7 +3317,7 @@ class CfgSettings
 			not disconnect before the restart. Should at least be two
 			minutes!
 		*/
-		kickTime = 2;
+		kickTime = 3;
 
 		/*
 			Self-explanatory
@@ -3325,7 +3325,7 @@ class CfgSettings
 			0 = off
 			1 = on
 		*/
-		useRestartMessages = 0;
+		useRestartMessages = 1;
 
 		/*
 			Number of minutes before the restart to inform your players.
@@ -3391,7 +3391,7 @@ class CfgSettings
 			function = "ExileServer_system_event_supplyBox_start";
 			minTime = 60; // minutes
 			maxTime = 180; // minutes
-			minimumPlayersOnline = 10;
+			minimumPlayersOnline = 8;
 			dropRadius = 500; // 500m around an airport (including the main airport on Altis!)
 			dropAltitude = 100; // altitude of the drop
 			markerTime = 10; // minutes
